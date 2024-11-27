@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Student, Product, Patient, Appointment,Contact, Member
+from .models import Student, Product, Patient, Appointment,Contact, Member, ImageModel
 
 
 # Register your models here.
@@ -16,3 +16,4 @@ admin.site.register(Contact)
 
 admin.site.register (Member)
 
+admin.site.register (ImageModel)
